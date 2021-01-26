@@ -5,7 +5,7 @@
     <title>Čeští a slovenští prezidenti</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-      table.presidents {width: 100%;}
+      table.presidents {width: 100%; border-collapse: collapse;}
       .presidents th, .presidents td {border: 1px solid gray; padding: 5px;}
       .presidents th {font-weight: 700; text-align: center;}
       .presidents td {font-weight: 400;}
@@ -14,6 +14,7 @@
       .presidents .roky {background-color: #D7CCC8;}
       .presidents .cr {background-color: #90CAF9;}
       .presidents .sr {background-color: #F8BBD0;}
+      .presidents .no_president {color:rgb(143, 143, 143);}
     </style>
   </head>
   <body>
@@ -30,16 +31,101 @@
         </tr>
       </thead>
       <tbody class="komuniste">
+        <tr>
+          <th>1975</th>
+          <th>1989</th>
+          <td colspan="2">Gustav Husák</td>
+          <td></td>
+          
+        </tr>
 
       </tbody>
       <tbody class="spolecne">
+        <tr>
+          <th>1989</th>
+          <th>1990</th>
+          <td rowspan="2" colspan="2">Václav Havel</td>
+
+          <td>Zvolen federálním shromážděním (s převahou poslanců KSČ)</td>
+        </tr>
+        <tr>
+          <th>1990</th>
+          <th>1992</th>
+          
+          
+          <td>31. prosince 1992 zaniká Česko-Slovenská Federativní Republika</td>
+        </tr>
 
       </tbody>
       <tbody>
-
+        <tr>
+          <th>1993</th>
+          <th>1998</th>
+          <td rowspan="3">Václav Havel</td>
+          <td>Michal Kováč</td>
+          <td></td>
+        </tr>
+        <tr>
+          <th>1998</th>
+          <th>1999</th>
+          <div class="no_presidents">
+            <td>bez prezidenta</td>
+            <td>Na Slovensku v té době byli pověřeni  prezidentskými pravomocemi tehdejší premiéři</td>
+          </div>
+        </tr>
+        <tr>
+          <th>1999</th>
+          <th>2003</th>
+          
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <th>2003</th>
+          <th>2004</th>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <th>2004</th>
+          <th>2013</th>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <th>2013</th>
+          <th>2014</th>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <th>2014</th>
+          <th>2019</th>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <th>2019</th>
+          <th>dosud</th>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        
       </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="2">Počet</td>
+            <td>2+3</td>
+            <td>2+5</td>
+            <td></td>
+          </tr>
 
-      </tfoot>
+        </tfoot>
     </table>
   </body>
 </html>
